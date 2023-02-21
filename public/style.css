@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:arial black;
+}
+body {
+  background: #333;
+  /* display: flex;
+  justify-content: center; */
+}
+  
+/* DEMO-SPECIFIC STYLES */
+/* .typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em; */
+  /* animation: 
+  typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+  font-size: 40pt;
+} */
+  
+/* #loader{
+    margin-top: 250px;
+} */
+  /* The typing effect */
+  /* @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+  
+  /* The typewriter cursor effect */
+  /* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  } */
+  
+  
+  /* Add animation to "page content" */
+  /* .animate-bottom {
+    display: block;
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+  } */
