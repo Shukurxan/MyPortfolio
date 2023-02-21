@@ -7,9 +7,9 @@ export default class nav1 extends Component {
     return (
       <div>
         <h1>
-            <a id='anim-write' href="" class="typewrite text-warning" data-period="2000" data-type='[ "Hi, Im Shukurkhan.", "I am Frontend Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+            <span id='anim-write' class="typewrite text-warning" data-period="2000" data-type='[ "Hi, Im Shukurkhan.", "I am Frontend Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
                 <span class="wrap"></span>
-            </a>
+            </span>
         </h1>
       </div>
     )
