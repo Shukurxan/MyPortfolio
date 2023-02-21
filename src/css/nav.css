@@ -64,3 +64,9 @@
         display: block;
     }
 }
+@media screen and (max-width: 576px) {
+    #offcanvasRight{
+        width: 100%;
+        display: block;
+    }
+}
