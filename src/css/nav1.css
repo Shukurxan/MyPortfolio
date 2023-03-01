@@ -1,4 +1,4 @@
-#anim-write{
+/* #anim-write{
     display: block;
     text-align: center;
     margin-top: 150px;
@@ -6,4 +6,12 @@
   
 #anim-write{
     text-decoration: none;
+} */
+body {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
 }
+
+* { text-decoration: none;}
