@@ -6,20 +6,12 @@ export default class nav1 extends Component {
   render() {
     return (
       <div>
-        <h1>This pen is
-          <span
-            class="txt-rotate"
-            data-period="2000"
-            data-rotate='[ "nerdy.", "simple.", "pure JS.", "pretty.", "fun!" ]'></span>
+        <h1 class="d-block">
+          <span id='anim-write' class="typewrite text-warning d-block" data-period="2000" data-type='[ "Hi, Im Shukurkhan.", "I am Frontend Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+              <span class="wrap"></span>
+          </span>
         </h1>
       </div>
-      // <div>
-      //   <h1 class="d-block">
-      //     <span id='anim-write' class="typewrite text-warning d-block" data-period="2000" data-type='[ "Hi, Im Shukurkhan.", "I am Frontend Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
-      //         <span class="wrap"></span>
-      //     </span>
-      //   </h1>
-      // </div>
     )
   }
 }
