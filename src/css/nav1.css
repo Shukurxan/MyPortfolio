@@ -7,11 +7,20 @@
 #anim-write{
     text-decoration: none;
 } */
-body {
-  background-color:#ce3635;
-  text-align: center;
-  color:#fff;
-  padding-top:10em;
+html,body {
+  font-family: 'Raleway', sans-serif;
+  padding: 3em 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa
 }
 
-* { text-decoration: none;}
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
