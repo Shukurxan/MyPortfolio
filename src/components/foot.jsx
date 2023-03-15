@@ -16,7 +16,7 @@ export default class foot extends Component {
                 <div className='d-flex justify-content-between'>
                     <a href="https://www.telegram.me/kali_pro"><i class="fa-brands fa-telegram fs-2"></i></a>
                     <a href="https://www.instagram.com/shukurxan777"><i class="fa-brands fa-instagram fs-2 text-danger"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter fs-2"></i></a>
+                    <a href="https://www.twitter.com/shukurxan777"><i class="fa-brands fa-twitter fs-2"></i></a>
                 </div>
             </div>
         </div>
