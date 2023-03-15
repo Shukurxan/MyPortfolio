@@ -4,7 +4,7 @@ import '../css/foot.css';
 export default class foot extends Component {
   render() {
     return (
-      <div className='fixed-bottom'>
+      <div id='footbg' className='fixed-bottom'>
         <hr className='border-warning' />
         <div className='d-flex justify-content-around'>
             <div>
