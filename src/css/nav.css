@@ -1,3 +1,9 @@
+.active{
+    color: white;
+}
+#navlink{
+    color: #ffc107;
+}
 #anim-color{
     cursor: pointer;
 }
@@ -45,9 +51,6 @@
 }
 #menu-bar{
     display: none;
-}
-#bar-ul > a > li{
-    margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
     #menu-bar{

@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import '../css/nav.css';
 import '../js/nav.js';
 
@@ -12,11 +13,21 @@ export default class nav extends Component {
             </div>
             <div>
               <ul className='list-unstyled d-flex'>
-                <a id='menu-none' className='text-decoration-none ms-3 text-warning' href=""><li>Home</li></a>
-                <a id='menu-none' className='text-decoration-none ms-3 text-warning' href=""><li>About</li></a>
-                <a id='menu-none' className='text-decoration-none ms-3 text-warning' href=""><li>Resume</li></a>
-                <a id='menu-none' className='text-decoration-none ms-3 text-warning' href=""><li>Portfolio</li></a>
-                <a id='menu-none' className='text-decoration-none ms-3 text-warning' href=""><li>Contact</li></a>
+                <li id='menu-none' className='ms-3'>
+                  <NavLink id='navlink' className='text-decoration-none' to="/">Home</NavLink>
+                </li>
+                <li id='menu-none' className='ms-3'>
+                  <NavLink id='navlink' className='text-decoration-none' to="/about">About</NavLink>
+                </li>
+                <li id='menu-none' className='ms-3'>
+                  <NavLink id='navlink' className='text-decoration-none' to="/resume">Resume</NavLink>
+                </li>
+                <li id='menu-none' className='ms-3'>
+                  <NavLink id='navlink' className='text-decoration-none' to="/portfolio">Portfolio</NavLink>
+                </li>
+                <li id='menu-none' className='ms-3'>
+                  <NavLink id='navlink' className='text-decoration-none' to="/contact">Contact</NavLink>
+                </li>
                 <select id='select' className='ms-3 text-warning'>
                   <option value=""><a href="">EN</a></option>
                   <option value=""><a href="#">RU</a></option>
