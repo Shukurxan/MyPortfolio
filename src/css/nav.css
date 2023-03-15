@@ -33,6 +33,9 @@
     display: block;
     text-align: center;
 }
+#bar-ul > li{
+    margin-top: 20px;
+}
 #anim-color:hover{
     background-image: 
     linear-gradient(to right, green, red, orange); 

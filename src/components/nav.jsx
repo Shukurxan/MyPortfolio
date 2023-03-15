@@ -43,11 +43,21 @@ export default class nav extends Component {
                   </div>
                   <div id='bar-body' class="offcanvas-body">
                     <ul id='bar-ul' className='list-unstyled mt-5'>
-                      <a className='text-decoration-none text-warning' href=""><li>Home</li></a>
-                      <a className='text-decoration-none text-warning' href=""><li>About</li></a>
-                      <a className='text-decoration-none text-warning' href=""><li>Resume</li></a>
-                      <a className='text-decoration-none text-warning' href=""><li>Portfolio</li></a>
-                      <a className='text-decoration-none text-warning' href=""><li>Contact</li></a>
+                      <li className='ms-3'>
+                        <NavLink id='navlink' className='text-decoration-none' to="/">Home</NavLink>
+                      </li>
+                      <li className='ms-3'>
+                        <NavLink id='navlink' className='text-decoration-none' to="/about">About</NavLink>
+                      </li>
+                      <li className='ms-3'>
+                        <NavLink id='navlink' className='text-decoration-none' to="/resume">Resume</NavLink>
+                      </li>
+                      <li className='ms-3'>
+                        <NavLink id='navlink' className='text-decoration-none' to="/portfolio">Portfolio</NavLink>
+                      </li>
+                      <li className='ms-3'>
+                        <NavLink id='navlink' className='text-decoration-none' to="/contact">Contact</NavLink>
+                      </li>
                       <select id='bar-select' className='text-warning'>
                         <option value=""><a href="">EN</a></option>
                         <option value=""><a href="#">RU</a></option>
