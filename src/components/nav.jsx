@@ -6,13 +6,13 @@ import '../js/nav.js';
 export default class nav extends Component {
   render() {
     return (
-      <div className='navbar'>
+      <div className='navbar shadow-sm bg-body-tertiary'>
           <div className='container-fluid'>
             <div>
               <h1 id='anim-color' className='text-warning'>My Portfolio</h1>
             </div>
             <div>
-              <ul className='list-unstyled d-flex'>
+              <ul className='list-unstyled d-flex mt-3'>
                 <li id='menu-none' className='ms-3'>
                   <NavLink id='navlink' className='text-decoration-none' to="/">Home</NavLink>
                 </li>

@@ -1,0 +1,25 @@
+#abdiv1 > h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#abdiv1 > hr{
+    width: 120px;
+    border: 2px solid crimson;
+    filter: brightness(1.75);
+}
+#picdiv > img{
+    width: 300px;
+    height: 300px;
+}
+#indiv > h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#indiv > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+#absp{
+    font-family: 'Times New Roman', Times, serif;
+     color: white;
+}
