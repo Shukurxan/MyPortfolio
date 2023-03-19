@@ -23,7 +23,7 @@ export class about extends Component {
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Phone: <span className='ms-2' id='absp'>+998 94 000 8 333</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> City: <span className='ms-2' id='absp'>Kokand city, Uzbekistan</span></span>
               </div>
-              <div className='ms-lg-5'>
+              <div className='ms-lg-5 container-fluid'>
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Age: <span className='ms-2' id='absp'>22</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Degree: <span className='ms-2' id='absp'>Junior</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Email: <span className='ms-2' id='absp'>shukurulloabduqayumov881@gmail.com</span></span><br />
