@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Nav from './components/nav';
-import Foot from './components/foot';
 import Header from './containers/header';
 import About from './containers/about';
 import Resume from './containers/resume';
 import Portfolio from './containers/portfolio';
+import Services from './containers/services';
 import Contact from './containers/contact';
 import Error from './Error';
 
@@ -19,11 +19,11 @@ function App() {
                     <Route path='/about' element={<About />} />
                     <Route path='/resume' element={<Resume />} />
                     <Route path='/portfolio' element={<Portfolio />} />
+                    <Route path='/services' element={<Services />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='*' element={<Error />} />
                 </Routes>
             </div> 
-            <Foot />
         </div> 
     );
 }

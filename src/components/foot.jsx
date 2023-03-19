@@ -6,7 +6,7 @@ export default class foot extends Component {
     return (
       <div id='footbg' className='fixed-bottom'>
         <hr className='border-warning' />
-        <div className='d-flex justify-content-between align-items-center ps-5 pe-5'>
+        <div className='d-flex justify-content-between ps-5 pe-5'>
             <div>
                 <p id='p'>© Copyright iPortfolio</p>
                 <p id='p'>Designed by Shukurxan</p>

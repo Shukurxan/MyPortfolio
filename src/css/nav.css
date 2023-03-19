@@ -55,7 +55,7 @@
 #menu-bar{
     display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     #menu-bar{
         display: block;
     }

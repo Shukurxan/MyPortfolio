@@ -26,6 +26,9 @@ export default class nav extends Component {
                   <NavLink id='navlink' className='text-decoration-none' to="/portfolio">Portfolio</NavLink>
                 </li>
                 <li id='menu-none' className='ms-3'>
+                  <NavLink id='navlink' className='text-decoration-none' to="/services">Services</NavLink>
+                </li>
+                <li id='menu-none' className='ms-3'>
                   <NavLink id='navlink' className='text-decoration-none' to="/contact">Contact</NavLink>
                 </li>
                 <select id='select' className='ms-3 text-warning'>
@@ -54,6 +57,9 @@ export default class nav extends Component {
                       </li>
                       <li className='ms-3'>
                         <NavLink id='navlink' className='text-decoration-none' to="/portfolio">Portfolio</NavLink>
+                      </li>
+                      <li className='ms-3'>
+                        <NavLink id='navlink' className='text-decoration-none' to="/services">Services</NavLink>
                       </li>
                       <li className='ms-3'>
                         <NavLink id='navlink' className='text-decoration-none' to="/contact">Contact</NavLink>
