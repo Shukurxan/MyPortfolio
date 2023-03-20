@@ -26,7 +26,7 @@ export class about extends Component {
               <div className='ms-lg-5'>
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Age: <span className='ms-2' id='absp'>22</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Degree: <span className='ms-2' id='absp'>Junior</span></span><br />
-                <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Email: <span className='ms-2' id='absp'>shukurulloabduqayumov881@gmail.com</span></span><br />
+                <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Email: <span className='ms-2' id='absp'>shukurxandev@gmail.com</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Freelance: <span className='ms-2' id='absp'>Aviable</span></span><br />
               </div>
             </div>
