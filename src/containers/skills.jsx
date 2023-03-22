@@ -12,7 +12,7 @@ export default class skills extends Component {
             <div className='mt-3'>
                 <h4 className='text-center text-white'>On FrontEnd</h4>
             </div>
-            <div className='row mt-5'>
+            <div className='row mt-3'>
                 <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
                     <div class="container  mt-3">
                         <div className='d-flex justify-content-between'>
@@ -93,6 +93,35 @@ export default class skills extends Component {
                         </div>
                         <div class="progress progress-striped7">
                             <div class="progress-bar7">
+                            </div>                       
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div className='mt-5'>
+                <h4 className='text-center text-white'>On BackEnd</h4>
+            </div>
+            <div className='row mt-3'>
+                <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+                    <div class="container  mt-3">
+                        <div className='d-flex justify-content-between'>
+                            <span className='text-white'>PHP</span>
+                            <span className='text-white'>90%</span>
+                        </div>
+                        <div class="progress progress-striped8">
+                            <div class="progress-bar8">
+                            </div>                       
+                        </div> 
+                    </div>
+                </div>
+                <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+                    <div class="container  mt-3">
+                        <div className='d-flex justify-content-between'>
+                            <span className='text-white'>TELEGRAM BOT</span>
+                            <span className='text-white'>95%</span>
+                        </div>
+                        <div class="progress progress-striped9">
+                            <div class="progress-bar9">
                             </div>                       
                         </div> 
                     </div>

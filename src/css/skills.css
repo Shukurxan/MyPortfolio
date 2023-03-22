@@ -102,6 +102,26 @@
           transparent 75%, transparent); 
     animation: progressAnimationStrike7 6s;
 }
+.progress-striped8 .progress-bar8 { 	
+    background-color: #FCBC51; 
+    width: 90%; 
+    background-image: linear-gradient(
+          45deg, rgb(252,163,17) 25%, 
+          transparent 25%, transparent 50%, 
+          rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+          transparent 75%, transparent); 
+    animation: progressAnimationStrike8 6s;
+}
+.progress-striped9 .progress-bar9 { 	
+    background-color: #FCBC51; 
+    width: 95%; 
+    background-image: linear-gradient(
+          45deg, rgb(252,163,17) 25%, 
+          transparent 25%, transparent 50%, 
+          rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+          transparent 75%, transparent); 
+    animation: progressAnimationStrike9 6s;
+}
 
 @keyframes progressAnimationStrike {
      from { width: 0 }
@@ -134,4 +154,12 @@
 @keyframes progressAnimationStrike7 {
     from { width: 0 }
     to   { width: 90% }
+}
+@keyframes progressAnimationStrike8 {
+    from { width: 0 }
+    to   { width: 90% }
+}
+@keyframes progressAnimationStrike9 {
+    from { width: 0 }
+    to   { width: 95% }
 }
