@@ -34,11 +34,11 @@ export default class nav extends Component {
                 <li id='menu-none' className='ms-3'>
                   <NavLink id='navlink' className='text-decoration-none' to="/contact">Contact</NavLink>
                 </li>
-                <select id='select' className='ms-3 text-warning'>
+                {/* <select id='select' className='ms-3 text-warning'>
                   <option value=""><a href="">EN</a></option>
-                  <option value=""><a href="#">RU</a></option>
-                  <option value=""><a href="#">UZ</a></option>
-                </select>
+                  <option value=""><a href="/">RU</a></option>
+                  <option value=""><a href="/">UZ</a></option>
+                </select> */}
 
                 <span id='menu-bar' className='text-warning ms-3 fs-5' data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i></span>
 
@@ -70,11 +70,11 @@ export default class nav extends Component {
                       <li className='ms-3' data-bs-dismiss="offcanvas">
                         <NavLink id='navlink' className='text-decoration-none' to="/contact">Contact</NavLink>
                       </li>
-                      <select id='bar-select' className='text-warning'>
+                      {/* <select id='bar-select' className='text-warning'>
                         <option value=""><a href="">EN</a></option>
                         <option value=""><a href="#">RU</a></option>
                         <option value=""><a href="#">UZ</a></option>
-                      </select>
+                      </select> */}
                     </ul>
                   </div>
                 </div>
