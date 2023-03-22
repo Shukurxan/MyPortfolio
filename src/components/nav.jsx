@@ -6,7 +6,7 @@ import '../js/nav.js';
 export default class nav extends Component {
   render() {
     return (
-      <div className='navbar shadow-sm bg-body-tertiary'>
+      <div id='bg-col' className='navbar shadow-sm sticky-top'>
           <div className='container-fluid'>
             <div>
               <h1 id='anim-color' className='text-warning'>My Portfolio</h1>
