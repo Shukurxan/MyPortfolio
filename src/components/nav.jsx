@@ -55,6 +55,9 @@ export default class nav extends Component {
                       <li className='ms-3' data-bs-dismiss="offcanvas">
                         <NavLink id='navlink' className='text-decoration-none' to="/about">About</NavLink>
                       </li>
+                      <li className='ms-3'>
+                        <NavLink id='navlink' className='text-decoration-none' to="/skills">Skills</NavLink>
+                      </li>
                       <li className='ms-3' data-bs-dismiss="offcanvas">
                         <NavLink id='navlink' className='text-decoration-none' to="/resume">Resume</NavLink>
                       </li>

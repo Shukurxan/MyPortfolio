@@ -19,13 +19,13 @@ export class about extends Component {
             <div id='abin'>
               <div>
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Name: <span className='ms-2' id='absp'>Shukurkhan</span></span><br />
+                <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Lastname: <span className='ms-2' id='absp'>Abdukayumov</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Birthday: <span className='ms-2' id='absp'>05 January 2001</span></span><br />
-                <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Website: <span className='ms-2' id='absp'>https://creative-daffodil-f44511.netlify.app/</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Phone: <span className='ms-2' id='absp'>+998 94 000 8 333</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> City: <span className='ms-2' id='absp'>Kokand city, Uzbekistan</span></span>
               </div>
               <div className='ms-lg-5'>
-                <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Lastname: <span className='ms-2' id='absp'>Abdukayumov</span></span><br />
+                <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Website: <span className='ms-2' id='absp'>https://creative-daffodil-f44511.netlify.app/</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Age: <span className='ms-2' id='absp'>22</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Degree: <span className='ms-2' id='absp'>Junior</span></span><br />
                 <span className='text-white'><i class="fa-solid text-primary fa-chevron-right"></i> Email: <span className='ms-2' id='absp'>shukurxandev@gmail.com</span></span><br />
