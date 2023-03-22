@@ -122,6 +122,46 @@
           transparent 75%, transparent); 
     animation: progressAnimationStrike9 6s;
 }
+.progress-striped10 .progress-bar10 { 	
+    background-color: #FCBC51; 
+    width: 100%; 
+    background-image: linear-gradient(
+          45deg, rgb(252,163,17) 25%, 
+          transparent 25%, transparent 50%, 
+          rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+          transparent 75%, transparent); 
+    animation: progressAnimationStrike10 6s;
+}
+.progress-striped11 .progress-bar11 { 	
+    background-color: #FCBC51; 
+    width: 70%; 
+    background-image: linear-gradient(
+          45deg, rgb(252,163,17) 25%, 
+          transparent 25%, transparent 50%, 
+          rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+          transparent 75%, transparent); 
+    animation: progressAnimationStrike11 6s;
+}
+.progress-striped12 .progress-bar12 { 	
+    background-color: #FCBC51; 
+    width: 90%; 
+    background-image: linear-gradient(
+          45deg, rgb(252,163,17) 25%, 
+          transparent 25%, transparent 50%, 
+          rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+          transparent 75%, transparent); 
+    animation: progressAnimationStrike12 6s;
+}
+.progress-striped13 .progress-bar13 { 	
+    background-color: #FCBC51; 
+    width: 50%; 
+    background-image: linear-gradient(
+          45deg, rgb(252,163,17) 25%, 
+          transparent 25%, transparent 50%, 
+          rgb(252,163,17) 50%, rgb(252,163,17) 75%,
+          transparent 75%, transparent); 
+    animation: progressAnimationStrike13 6s;
+}
 
 @keyframes progressAnimationStrike {
      from { width: 0 }
@@ -162,4 +202,20 @@
 @keyframes progressAnimationStrike9 {
     from { width: 0 }
     to   { width: 95% }
+}
+@keyframes progressAnimationStrike10 {
+    from { width: 0 }
+    to   { width: 100% }
+}
+@keyframes progressAnimationStrike11 {
+    from { width: 0 }
+    to   { width: 70% }
+}
+@keyframes progressAnimationStrike12 {
+    from { width: 0 }
+    to   { width: 90% }
+}
+@keyframes progressAnimationStrike13 {
+    from { width: 0 }
+    to   { width: 50% }
 }
