@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Nav from './components/nav';
 import Header from './containers/header';
 import About from './containers/about';
+import Skills from './containers/skills';
 import Resume from './containers/resume';
 import Portfolio from './containers/portfolio';
 import Services from './containers/services';
@@ -17,6 +18,7 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Header />} />
                     <Route path='/about' element={<About />} />
+                    <Route path='/skills' element={<Skills />} />
                     <Route path='/resume' element={<Resume />} />
                     <Route path='/portfolio' element={<Portfolio />} />
                     <Route path='/services' element={<Services />} />

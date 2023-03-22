@@ -14,10 +14,13 @@ export default class nav extends Component {
             <div>
               <ul className='list-unstyled d-flex mt-3'>
                 <li id='menu-none' className='ms-3'>
-                  <NavLink id='navlink' className='text-decoration-none' to="/">Home</NavLink>
+                  <a href="/" id='navlink' className='text-decoration-none'>Home</a>
                 </li>
                 <li id='menu-none' className='ms-3'>
                   <NavLink id='navlink' className='text-decoration-none' to="/about">About</NavLink>
+                </li>
+                <li id='menu-none' className='ms-3'>
+                  <NavLink id='navlink' className='text-decoration-none' to="/skills">Skills</NavLink>
                 </li>
                 <li id='menu-none' className='ms-3'>
                   <NavLink id='navlink' className='text-decoration-none' to="/resume">Resume</NavLink>
@@ -46,22 +49,22 @@ export default class nav extends Component {
                   </div>
                   <div id='bar-body' class="offcanvas-body">
                     <ul id='bar-ul' className='list-unstyled mt-5'>
-                      <li className='ms-3'>
-                        <NavLink id='navlink' className='text-decoration-none' to="/">Home</NavLink>
+                      <li className='ms-3' data-bs-dismiss="offcanvas">
+                        <a href="/" id='navlink' className='text-decoration-none'>Home</a>
                       </li>
-                      <li className='ms-3'>
+                      <li className='ms-3' data-bs-dismiss="offcanvas">
                         <NavLink id='navlink' className='text-decoration-none' to="/about">About</NavLink>
                       </li>
-                      <li className='ms-3'>
+                      <li className='ms-3' data-bs-dismiss="offcanvas">
                         <NavLink id='navlink' className='text-decoration-none' to="/resume">Resume</NavLink>
                       </li>
-                      <li className='ms-3'>
+                      <li className='ms-3' data-bs-dismiss="offcanvas">
                         <NavLink id='navlink' className='text-decoration-none' to="/portfolio">Portfolio</NavLink>
                       </li>
-                      <li className='ms-3'>
+                      <li className='ms-3' data-bs-dismiss="offcanvas">
                         <NavLink id='navlink' className='text-decoration-none' to="/services">Services</NavLink>
                       </li>
-                      <li className='ms-3'>
+                      <li className='ms-3' data-bs-dismiss="offcanvas">
                         <NavLink id='navlink' className='text-decoration-none' to="/contact">Contact</NavLink>
                       </li>
                       <select id='bar-select' className='text-warning'>
