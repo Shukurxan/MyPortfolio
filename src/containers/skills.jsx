@@ -128,7 +128,7 @@ export default class skills extends Component {
                 </div>
             </div>
             <div className='mt-5'>
-                <h4 className='text-center text-white'>An Others</h4>
+                <h4 className='text-center text-white'>Others</h4>
             </div>
             <div className='row mt-3'>
                 <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
