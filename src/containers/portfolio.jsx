@@ -30,8 +30,8 @@ export default class portfolio extends Component {
                 <div class="portfolio-wrap">
                   <img src="assets/image_2023-03-29_15-38-28.png" class="img-fluid" alt="" />
                   <div class="portfolio-links">
-                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    <a href="assets/image_2023-03-29_15-38-28.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                    <a href="https://fastidious-taffy-917333.netlify.app/" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
