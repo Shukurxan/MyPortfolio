@@ -7,8 +7,8 @@ export default class portfolio extends Component {
     return (
         <div className='p-3'>
             <div id='port-div'>
-            <h3>Portfolio</h3>
-            <hr />
+                <h3>Portfolio</h3>
+                <hr />
             </div>
             <div class="container">
                 <div class="row">

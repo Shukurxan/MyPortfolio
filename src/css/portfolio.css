@@ -1,3 +1,12 @@
+#port-div > h3{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#port-div > hr{
+  width: 108px;
+  border: 2px solid crimson;
+  filter: brightness(1.75);
+}
 .gallery-title
 {
     font-size: 36px;
