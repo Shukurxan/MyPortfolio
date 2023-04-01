@@ -45,7 +45,7 @@ export default class portfolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade w-100 modal-lg" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal fade w-100 modal-lg mt-5" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                         <div id='web-img' class="modal-dialog modal-dialog-centered"></div>
                     </div>
 
@@ -66,7 +66,7 @@ export default class portfolio extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade w-100 modal-lg" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal fade w-100 modal-lg mt-5" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                         <div id='web-img1' class="modal-dialog modal-dialog-centered"></div>
                     </div>
 
