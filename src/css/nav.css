@@ -39,7 +39,7 @@
 #bar-ul > li{
     margin-top: 20px;
 }
-#anim-color:hover{
+/* #anim-color:hover{
     background-image: 
     linear-gradient(to right, green, red, orange); 
     -webkit-background-clip: text;
@@ -50,7 +50,7 @@
     to {
         background-position: 4500vh;
     }
-}
+} */
 #offcanvasRight{
     background-color: #333;
     display: none;
