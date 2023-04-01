@@ -20,19 +20,19 @@ export default class portfolio extends Component {
                     <button class="btn btn-default filter-button" data-filter="spray">Web</button>
                 </div>
                 <br/>
-                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter hdpe">
+                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter hdpe">
                         <img src="" class="img-fluid" />
                     </div>
 
-                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter sprinkle">
+                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter sprinkle">
                         <img src="" class="img-fluid" />
                     </div>
 
-                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter hdpe">
+                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter hdpe">
                         <img src="" class="img-fluid" />
                     </div>
 
-                    <div id='img-div' class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter spray">
+                    <div id='img-div' class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter spray">
                         <div className='position-relative'>
                             <img src="assets/image_2023-03-29_15-38-28.png" class="img-fluid" />
                             <div id="overlay" className='row d-flex justify-content-between'>
@@ -49,11 +49,11 @@ export default class portfolio extends Component {
                         <div id='web-img' class="modal-dialog modal-dialog-centered"></div>
                     </div>
 
-                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter sprinkle">
+                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter sprinkle">
                         <img src="" class="img-fluid" />
                     </div>
 
-                    <div id='img-div' class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter spray">
+                    <div id='img-div' class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter spray">
                         <div className='position-relative'>
                             <img src="assets/image_2023-03-31_21-58-25.png" class="img-fluid" />
                             <div id="overlay" className='row d-flex justify-content-between'>
@@ -70,15 +70,15 @@ export default class portfolio extends Component {
                         <div id='web-img1' class="modal-dialog modal-dialog-centered"></div>
                     </div>
 
-                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter hdpe">
+                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter hdpe">
                         <img src="" class="img-fluid" />
                     </div>
 
-                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter spray">
+                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter spray">
                         <img src="" class="img-fluid" />
                     </div>
 
-                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xs-4 filter sprinkle">
+                    <div class="gallery_product col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 filter sprinkle">
                         <img src="" class="img-fluid" />
                     </div>
                 </div>
