@@ -1,0 +1,12 @@
+#rsdiv > h3{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#rsdiv > hr{
+    width: 100px;
+    border: 2px solid crimson;
+    filter: brightness(1.75);
+}
+#resume{
+    color: #fff;
+}

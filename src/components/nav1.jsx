@@ -7,7 +7,7 @@ export default class nav1 extends Component {
     return (
       <div>
         <h1 class="d-block">
-          <span id='anim-write' class="typewrite text-warning d-block" data-period="2000" data-type='[ "Hi, Im Shukurkhan.", "I am Frontend Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+          <span id='anim-write' class="typewrite text-warning d-block" data-period="2000" data-type='[ "Hi, Im Shukurkhan.", "I am Fullstack Developer.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
               <span class="wrap"></span>
           </span>
         </h1>

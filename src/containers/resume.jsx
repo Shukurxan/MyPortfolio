@@ -15,50 +15,60 @@ export default class resume extends Component {
                     <div class="col-lg-6" data-aos="fade-up">
                     <h3 class="resume-title">My Education</h3>
                         <div class="resume-item pb-0">
-                            <h5>Alex Smith</h5>
-                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-                            <ul>
-                                <li>Portland par 127,Orlando, FL</li>
-                                <li>(123) 456-7891</li>
-                                <li>alice.barkley@example.com</li>
+                            <h5>Microsoft Office</h5>
+                            <p>In 2019 I completed 2 months training course on Microsoft Office software and now I have good experience</p>
+                            <ul className='list-unstyled'>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> WORD</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> EXCEL</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> POWER POINT</li>
                             </ul>
                         </div>
 
                         <div class="resume-item">
-                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2015 - 2016</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                            <h4>Frontend</h4>
+                            <h5>2021 - 2022</h5>
+                            <p><em>IT EDU | Education center | Kokand</em></p>
+                            <ul className='list-unstyled'>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> HTML 5</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> CSS 3</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> SASS</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> BOOTSTRAP</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> GIT HUB</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> JAVA SCRIPT</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> JQUERRY</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> REACT JS</li>
+                            </ul>
                         </div>
                         <div class="resume-item">
-                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2010 - 2014</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                            <h4>Backend</h4>
+                            <h5>2022 - 2023</h5>
+                            <p><em>IT EDU | Education center | Kokand</em></p>
+                            <ul className='list-unstyled'>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> PHP</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> TELEGRAM BOT</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> LARAVEL</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="resume-title">My Experience</h3>
                         <div class="resume-item">
-                            <h4>Senior graphic design specialist</h4>
-                            <h5>2019 - Present</h5>
-                            <p><em>Experion, New York, NY </em></p>
-                            <ul>
-                                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                            <h5>1 year experience in computer services in Microsoft office</h5>
+                            <h5>2021 - 2022</h5>
+                            <p><em>Experion, Kokand</em></p>
+                            <ul className='list-unstyled'>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> Preparation of data sheets for work and study in Microsoft Word, preparation of various applications, etc</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> Creating tables, charts, formulas and more in Microsoft Excel</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> Creating slides in microsoft point and etc</li>
                             </ul>
                         </div>
                         <div class="resume-item">
-                            <h4>Graphic design specialist</h4>
-                            <h5>2017 - 2018</h5>
-                            <p><em>Stepping Stone Advertising, New York, NY</em></p>
-                            <ul>
-                                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                            <h5>Currently a web programming teacher at IT EDU Education Center</h5>
+                            <h5>Since 2022, November</h5>
+                            <ul className='list-unstyled'>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> Teaching how to create websites</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> Teaching API, CRUD system</li>
+                                <li><i class="fa-solid fa-check-double text-danger"></i> And teaching how to test a website etc.</li>
                             </ul>
                         </div>
                     </div>

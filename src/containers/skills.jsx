@@ -126,6 +126,18 @@ export default class skills extends Component {
                         </div> 
                     </div>
                 </div>
+                <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mx-auto'>
+                    <div class="container  mt-3">
+                        <div className='d-flex justify-content-between'>
+                            <span className='text-white'>LARAVEL</span>
+                            <span className='text-white'>70%</span>
+                        </div>
+                        <div class="progress progress-striped9">
+                            <div class="progress-bar9">
+                            </div>                       
+                        </div> 
+                    </div>
+                </div>
             </div>
             <div className='mt-5'>
                 <h4 className='text-center text-white'>Others</h4>
