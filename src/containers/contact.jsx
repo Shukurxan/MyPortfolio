@@ -41,15 +41,15 @@ export class contact extends Component {
                 <form action="" method="" role="form" class="php-email-form">
                   <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3">
-                      <input name='name' type="text" class="form-control" placeholder="Name" aria-label="Name" />
+                      <input id='inp' name='name' type="text" class="form-control" placeholder="Name" aria-label="Name" />
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3">
-                      <input name='email' type="email" class="form-control" placeholder="Email" aria-label="Email" />
+                      <input id='inp' name='email' type="email" class="form-control" placeholder="Email" aria-label="Email" />
                     </div>
                   </div>
                   <div id='con-div' class="form-floating mt-3">
                     <textarea name='area' class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-                    <label for="floatingTextarea2">Comments</label>
+                    <label className='text-dark' for="floatingTextarea2">Comments</label>
                   </div>
                   <div class="my-3">
                     <div class="loading">Loading</div>

@@ -137,10 +137,16 @@
     background: #37b3ed;
   }
 #con-div > textarea{
-    height: 100px;
+  height: 100px;
+  box-shadow: none;
+  outline: none;
+}
+#inp{
+  box-shadow: none;
+  outline: none;
 }
 #inp::placeholder{
-    color: black;
+  color: black;
 }
   @-webkit-keyframes animate-loading {
     0% {
