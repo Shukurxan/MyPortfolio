@@ -20,7 +20,7 @@ function contact() {
       alert("Subject has left blank!")
     }
     else{
-      const url = "http://myportfolio/Api/postApi.php";
+      const url = "https://shukurxandev.000webhostapp.com/Api/postApi.php";
       let fData = new FormData();
       fData.append('name', name);
       fData.append('email', email);
