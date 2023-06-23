@@ -133,7 +133,7 @@ export default class skills extends Component {
                             <span className='text-white'>70%</span>
                         </div>
                         <div class="progress progress-striped9">
-                            <div class="progress-bar5">
+                            <div class="progress-bar11">
                             </div>                       
                         </div> 
                     </div>
